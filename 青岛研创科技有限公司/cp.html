@@ -1,0 +1,407 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>青岛研创电子科技有限公司</title>
+  <link rel="stylesheet" type="text/css" href="style/css.css">
+  <script language="javascript" type="text/javascript" src="js/jquery1.4.min.js"></script>
+  <script language="javascript" type="text/javascript" src="js/jquery.jslider.js"></script>
+  <script language="javascript" type="text/javascript" src="js/jquery.js"></script>
+  <script language="javascript" type="text/javascript" src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <style>
+
+    .modal {
+      display: none;
+      /* Hidden by default */
+      position: fixed;
+      /* Stay in place */
+      z-index: 1;
+      /* Sit on top */
+      padding-top: 100px;
+      /* Location of the box */
+      left: 0;
+      top: 0;
+      width: 100%;
+      /* Full width */
+      height: 100%;
+      /* Full height */
+      overflow: auto;
+      /* Enable scroll if needed */
+      background-color: rgb(0, 0, 0);
+      /* Fallback color */
+      background-color: rgba(0, 0, 0, 0.9);
+      /* Black w/ opacity */
+    }
+
+    /* Modal Content (image) */
+    .modal-content {
+      margin: auto;
+      display: block;
+      width: 80%;
+      max-width: 700px;
+    }
+
+    /* Caption of Modal Image */
+    #caption {
+      margin: auto;
+      display: block;
+      width: 80%;
+      max-width: 700px;
+      text-align: center;
+      color: #ccc;
+      padding: 10px 0;
+      height: 150px;
+    }
+
+    /* Add Animation */
+    .modal-content,
+    #caption {
+      -webkit-animation-name: zoom;
+      -webkit-animation-duration: 0.6s;
+      animation-name: zoom;
+      animation-duration: 0.6s;
+    }
+
+    @-webkit-keyframes zoom {
+      from {
+        -webkit-transform: scale(0)
+      }
+
+      to {
+        -webkit-transform: scale(1)
+      }
+    }
+
+    @keyframes zoom {
+      from {
+        transform: scale(0.1)
+      }
+
+      to {
+        transform: scale(1)
+      }
+    }
+
+    /* The Close Button */
+    .close {
+      position: absolute;
+      top: 15px;
+      right: 35px;
+      color: #f1f1f1;
+      font-size: 40px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .close:hover,
+    .close:focus {
+      color: #bbb;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    /* 100% Image Width on Smaller Screens */
+    @media only screen and (max-width: 700px) {
+      .modal-content {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="top">
+      <h1>青岛研创电子科技有限公司</h1>
+    </div>
+    <!-- top end -->
+    <div class="menu">
+      <div class="nav">
+        <ul>
+          <li><a href="index.html">首页</a></li>
+          <li class="li_hover"><a href="cp.html">产品</a></li>
+          <li><a href="jjfa.html">解决方案</a></li>
+          <li><a href="fwyzc.html">服务与支持</a></li>
+          <li><a href="rhgm.html">如何购买</a></li>
+          <li><a href="cdhz.html">渠道合作</a></li>
+          <li style="background:none;"><a href="gysl.html">关于研创</a></li>
+        </ul>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="mainl left">
+        <div class="cpfl">
+          <h2><img src="images/cpfl.png"></h2>
+          <div class="flcon">
+            <ul>
+              <li class="u1" style="background-color: #87CEFA;"><a href="#">智能数据主机设备1U</a></li>
+              <li class="u2"><a href="#">智能数据主机设备2U</a></li>
+              <li class="u3"><a href="#">智能数据主机管理系统</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- cpfl end -->
+        <div class="ny_lx mt15">
+          <h2><img src="images/ny_lx.png" alt="联系我们"></h2>
+          <div class="lxcon"> <strong style=" color:#fbc800; font-size:14px;">青岛研创电子科技有限公司</strong><br />
+            青岛平台办公地址：青岛市市北区惠民路1号<br />
+            联系人：李先生 13705322692
+            <br /><br />
+            济南平台办公地址：山东省济南市市中区顺河街66号银座晶都国际广场<br /> 联系人：王先生 18805325753
+            <br /><br />
+            福建平台办公地址：福建省福州市鼓楼区华林路268号侨益大厦<br /> 联系人：曾先生 13505325751
+          </div>
+        </div>
+        <!-- ny_lx end -->
+      </div>
+      <div class="mainr right">
+        <h2 id="title"><span class="ny_nav">您当前所在的位置：<a href="index.html">首页</a> &gt; 智能数据主机设备1U</span>智能数据主机设备1U</h2>
+        <!-- 1U -->
+        <div class="zs play" id="zs1">
+
+          <img src="./upfiles/1U/1.jpg" class="n-1" id="u1-1">
+
+          <div id="myModal11" class="modal">
+            <span class="close close11">×</span>
+            <img class="modal-content" src="./upfiles/1U/1.jpg">
+          </div>
+
+          <div style="font-size:16px;background-color: #eee;">
+            <h4 style="padding-top: 20px;padding-bottom: 5px;">产品型号:ACP10810</h4>
+            <p>1U机架式，8路电量采集,8路电源控制；10个网口;10路模拟量采集;2路干接点输出,2路继电器输出;</p>
+            <p>1路HDMI，1路USB,支持1个硬盘接口 ,嵌入电源防雷功能,2米航空电源线,单机版系统管理软件,一年免费送修服务.</p>
+            <p style="padding-bottom:8px;">市场公开价:73000.00/台</p>
+          </div><div class="clear"></div>
+
+          <img src="./upfiles/1U/2.jpg" class="n-1" id="u1-2">
+          <div id="myModal12" class="modal">
+              <span class="close close12">×</span>
+              <img class="modal-content" src="./upfiles/1U/2.jpg">
+            </div>
+          <div style="font-size:16px;">
+            <h4 style="padding-top: 20px;padding-bottom: 5px;">产品型号:ACP10810-N8-E4</h4>
+            <p>1U机架式，8路电量采集,8路电源控制；10个网口;10路模拟量采集;2路干接点输出,2路继电器输出;</p>
+            <p>1路HDMI，1路USB,高清网络视频模块含4T硬盘 ,嵌入电源防雷功能,8路高清网络监控,2米航空电源线,单机版系统管理软件,一年免费送修服务.</p>
+            <p style="padding-bottom:8px;">市场公开价:103700.00/台</p>   
+          </div><div class="clear"></div>
+
+          <img src="./upfiles/1U/3.jpg" class="n-1" id="u1-3">
+          <div id="myModal13" class="modal">
+              <span class="close close13">×</span>
+              <img class="modal-content" src="./upfiles/1U/3.jpg">
+            </div>
+          <div style="font-size:16px;background-color: #eee;">
+            <h4 style="padding-top: 20px;padding-bottom: 5px;">产品型号:ACP10810-N8-E8</h4>
+            <p>1U机架式，8路电量采集,8路电源控制；10个网口,10路模拟量采集;2路干接点输出,2路继电器输出;</p>
+            <p>1路HDMI，1路USB,高清网络视频模块含8T硬盘 ,嵌入电源防雷功能,8路高清网络监控,,2米航空电源线，单机版系统管理软件,一年免费送修服务.</p>
+            <p style="padding-bottom:8px;">市场公开价:121700.00/台</p>
+          </div><div class="clear"></div>
+        </div>
+        <!-- 2U -->
+        <div class="zs" id="zs2">
+          <img src="./upfiles/2U/1.jpg" class="n-1" id="u2-1">
+          <div id="myModal21" class="modal">
+              <span class="close close21">×</span>
+              <img class="modal-content" src="./upfiles/2U/1.jpg">
+            </div>
+          <div style="font-size:16px;background-color: #eee;">
+            <h4 style="padding-top: 20px;padding-bottom: 5px;">产品型号:ACP21218P</h4>
+            <p>2U机架式，12路电量采集,12路电源控制；18个网口;8路模拟量输入,8路数字量输入;4路干接点输出,4路继电器输出;</p>
+            <p>1路HDMI,1路USB,嵌入电源防雷功能,支持8个硬盘接口,2米航空电源线单机版系统管理软件,一年免费送修服务.</p>
+            <p style="padding-bottom:8px;">市场公开价:129600.00/台</p>
+          </div>
+          <div class="clear"></div>
+          <!-- <br> -->
+          <img src="./upfiles/2U/2.jpg" class="n-1" id="u2-2">
+          <div id="myModal22" class="modal">
+              <span class="close close22">×</span>
+              <img class="modal-content" src="./upfiles/2U/2.jpg">
+            </div>
+          <div style="font-size:16px;">
+            <h4 style="padding-top: 20px;padding-bottom: 5px;">产品型号:ACP21216P-N16-E4</h4>
+            <p>2U机架式，12路电量采集,12路电源控制；18个网口;8路模拟量输入,8路数字量输入;4路干接点输出,4路继电器输出;</p>
+            <p>1路HDMI,1路USB,嵌入电源防雷功能,支持8个硬盘接口,16路高清网络视频模块含一块4T硬盘,单机版系统管理软件,一年免费送修服务.</p>
+            <p style="padding-bottom:8px;">市场公开价:191160.00/台</p>
+          </div>
+          <div class="clear"></div>
+          <!-- <br> -->
+          <img src="./upfiles/2U/3.jpg" class="n-1" id="u2-3">
+          <div id="myModal23" class="modal">
+              <span class="close close23">×</span>
+              <img class="modal-content" src="./upfiles/2U/3.jpg">
+            </div>
+          <div style="font-size:16px;background-color: #eee;">
+            <h4 style="padding-top: 20px;padding-bottom: 5px;">产品型号:ACP21216P-N16-E8</h4>
+            <p>2U机架式，12路电量采集,12路电源控制；18个网口;8路模拟量输入,8路数字量输入;4路干接点输出,4路继电器输出;</p>
+            <p>1路HDMI,1路USB,嵌入电源防雷功能,支持8个硬盘接口,16路高清网络视频模块含一块8T硬盘,单机版系统管理软件,一年免费送修服务.</p>
+            <p style="padding-bottom:8px;">市场公开价:208980.00/台</p>
+          </div>
+          <div class="clear"></div>
+        </div>
+        <div class="zs" id="zs3">
+            <h3>智能数据主机管理系统：</h3>
+            <div style="text-indent:2em;">
+              智能数据主机管理平台系统，采用B/S架构，支持业内主流浏览器访问，可同时连接、管理几十至上百台智能数据主机。用户可以通过时下主流的浏览器，对数据主机进行配置，规划实施电源策略、控制策略，以及报警管理、视频管理，实时数据监测及历史数据查询。
+            </div><br><h4>平台管理系统的简介及示意图:</h4><img src="./upfiles/j.png">
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <!-- <div class="mainr">
+      <h2><span class="ny_nav">您当前所在的位置：<a href="index.html">首页</a> &gt; 产品</span>产品</h2>
+      <h3>智能数据主机:</h3>
+      <div style="text-indent:2em;">
+        智能数据主机是集数据采集、数据分析、数据管控为一体的信息技术产品，主要包括以下功能：数据信息采集模块（分路电量采集、视频采集、多路信号采集）；数据信息分析模块（根据管理要求）；数据信息管控模块（电源智能管控、输入输出管控、数据信息管控）。通过三大功能模块的高度集成为用户提供高可靠、高可用、高安全的性能，适用于智能运维、无人值守、精细化管理等应用场景方面。
+      </div>
+      <br>
+      <script>
+        $('#myTabs a').click(function (e) {
+          e.preventDefault()
+          $(this).tab('show')
+        })
+        $('#myTabs a[href="#profile"]').tab('show')
+        $('#myTabs a:first').tab('show')
+        $('#myTabs a:last').tab('show')
+        $('#myTabs li:eq(2) a').tab('show')
+      </script>
+      <div>
+
+        <ul class="nav nav-tabs" role="tablist">
+          <li role="presentation" class="active"><a class="no1" href="#home" aria-controls="home" role="tab"
+              data-toggle="tab">1U 智能数据主机</a></li>
+          <li role="presentation"><a class="no2" href="#profile" aria-controls="profile" role="tab" data-toggle="tab">2U
+              智能数据主机</a></li>
+        </ul>
+
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane active" id="home">
+            <img src="./upfiles/1U/1.jpg" class="n-1">
+            <div style="font-weight:600;font-size:16px;transform: translateX(20px);">
+              <p>产品型号:ACP10810</p><br>
+              <p>1U机架式，8路电量采集,8路电源控制；10个网口;10路模拟量采集;2路干接点输出,2路继电器输出;</p>
+              <p>1路HDMI，1路USB,支持1个硬盘接口 ,嵌入电源防雷功能,2米航空电源线,单机版系统管理软件,一年免费送修服务.</p>
+              <br>
+              <p>市场公开价:73000.00/台</p>
+            </div>
+            <div class="clear"></div>
+            <br>
+            <img src="./upfiles/1U/2.jpg" class="n-1">
+            <div style="font-weight:600;font-size:16px;transform: translateX(20px);">
+              <p>产品型号:ACP10810-N8-E4</p><br>
+              <p>U机架式，8路电量采集,8路电源控制；10个网口;10路模拟量采集;2路干接点输出,2路继电器输出;</p>
+              <p>1路HDMI，1路USB,高清网络视频模块含4T硬盘 ,嵌入电源防雷功能,8路高清网络监控,2米航空电源线,单机版系统管理软件,一年免费送修服务.</p>
+              <br>
+              <p>市场公开价:103700.00/台</p>
+            </div>
+            <div class="clear"></div>
+            <br>
+            <img src="./upfiles/1U/3.jpg" class="n-1">
+            <div style="font-weight:600;font-size:16px;transform: translateX(20px);">
+              <p>产品型号:ACP10810-N8-E8</p><br>
+              <p>1U机架式，8路电量采集,8路电源控制；10个网口,10路模拟量采集;2路干接点输出,2路继电器输出;</p>
+              <p>1路HDMI，1路USB,高清网络视频模块含8T硬盘 ,嵌入电源防雷功能,8路高清网络监控,,2米航空电源线，单机版系统管理软件,一年免费送修服务.</p>
+              <br>
+              <p>市场公开价:121700.00/台</p>
+            </div>
+
+          </div>
+          <div role="tabpanel" class="tab-pane" id="profile">
+            <img src="./upfiles/2U/1.jpg" class="n-1">
+            <div style="font-weight:600;font-size:16px;transform: translateX(20px);">
+              <p>产品型号:ACP21218P</p><br>
+              <p>2U机架式，12路电量采集,12路电源控制；18个网口;8路模拟量输入,8路数字量输入;4路干接点输出,4路继电器输出;</p>
+              <p>1路HDMI,1路USB,嵌入电源防雷功能,支持8个硬盘接口,2米航空电源线单机版系统管理软件,一年免费送修服务.</p>
+              <br>
+              <p>市场公开价:129600.00/台</p>
+            </div>
+            <div class="clear"></div>
+            <br>
+            <img src="./upfiles/2U/2.jpg" class="n-1">
+            <div style="font-weight:600;font-size:16px;transform: translateX(20px);">
+              <p>产品型号:ACP21216P-N16-E4</p><br>
+              <p>2U机架式，12路电量采集,12路电源控制；18个网口;8路模拟量输入,8路数字量输入;4路干接点输出,4路继电器输出;</p>
+              <p>1路HDMI,1路USB,嵌入电源防雷功能,支持8个硬盘接口,16路高清网络视频模块含一块4T硬盘,单机版系统管理软件,一年免</p>
+              <p>费送修服务.</p>
+              <br>
+              <p>市场公开价:191160.00/台</p>
+            </div>
+            <div class="clear"></div>
+            <br>
+            <img src="./upfiles/2U/3.jpg" class="n-1">
+            <div style="font-weight:600;font-size:16px;transform: translateX(20px);">
+              <p>产品型号:ACP21216P-N16-E8</p><br>
+              <p>2U机架式，12路电量采集,12路电源控制；18个网口;8路模拟量输入,8路数字量输入;4路干接点输出,4路继电器输出;</p>
+              <p>1路HDMI,1路USB,嵌入电源防雷功能,支持8个硬盘接口,16路高清网络视频模块含一块8T硬盘,单机版系统管理软件,一年免</p>
+              <p>费送修服务.</p>
+              <br>
+              <p>市场公开价:208980.00/台</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+<div class="clear"></div>
+      <h3>智能数据主机管理系统：</h3>
+      <div style="text-indent:2em;">
+        智能数据主机管理平台系统，采用B/S架构，支持业内主流浏览器访问，可同时连接、管理几十至上百台智能数据主机。用户可以通过时下主流的浏览器，对数据主机进行配置，规划实施电源策略、控制策略，以及报警管理、视频管理，实时数据监测及历史数据查询。
+      </div><br><h4>平台管理系统的简介及示意图:</h4><img src="./upfiles/jj.png">
+    </div>   -->
+  </div>
+  </div>
+  <script>
+      var b = $('.u1').text();
+      var c = $('.u2').text();
+      var a = $('.u3').text();
+      $('.u1').on('click', function () {
+        if (!$('#zs1').hasClass('play')) {
+          $('#title').html(b + '<span class="ny_nav">您当前所在的位置：<a href="index.html">首页</a> &gt; ' + b + '</span>');
+        }
+      })
+      $('.u2').on('click', function () {
+        if (!$('#zs2').hasClass('play')) {
+          $('#title').html(c + '<span class="ny_nav">您当前所在的位置：<a href="index.html">首页</a> &gt; ' + c + '</span>');
+        }
+      })
+      $('.u3').on('click', function () {
+        if (!$('#zs3').hasClass('play')) {
+          $('#title').html(a + '<span class="ny_nav">您当前所在的位置：<a href="index.html">首页</a> &gt; ' + a + '</span>');
+        }
+      })
+    </script>
+  <script src="./js/change.js"></script>
+  <script>
+    
+
+
+    function use(id, modal,close) {
+      var modal = document.getElementById(modal);
+      var img = document.getElementById(id);
+      img.onclick = function () {
+        modal.style.display = "block";
+      }
+
+      // 获取 <span> 元素，设置关闭模态框按钮
+      var span = document.getElementsByClassName(close)[0];
+
+      // 点击 <span> 元素上的 (x), 关闭模态框
+      span.onclick = function () {
+        modal.style.display = "none";
+      }
+    }
+    use('u1-1', 'myModal11','close11');
+    use('u1-2', 'myModal12','close12');
+    use('u1-3', 'myModal13','close13');
+    use('u2-1', 'myModal21','close21');
+    use('u2-2', 'myModal22','close22');
+    use('u2-3', 'myModal23','close23');
+
+  </script>
+</body>
+
+</html>
